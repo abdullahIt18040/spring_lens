@@ -14,7 +14,14 @@ public class TestController {
 
     @GetMapping("/info")
     public String info(){
+
         return "info ............";
+    }
+
+    @GetMapping("/info2")
+    public String info2(){
+
+        return "info 222222222222............";
     }
 
 
