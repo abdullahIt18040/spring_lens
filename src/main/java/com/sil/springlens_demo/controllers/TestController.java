@@ -22,13 +22,18 @@ public class TestController {
     @GetMapping("/info2")
     public String info2(){
 
-        return "info 222222222222............";
+        return "info 222222222222............1222222222222222222222222222222";
     }
 
     @GetMapping("/info3")
     public String info3(){
 
         return "info 3333333333333333............";
+    }
+    @GetMapping("/info4")
+    public String info4(){
+
+        return "info 3333333333333333............w444444444444444444";
     }
 
 
