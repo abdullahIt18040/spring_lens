@@ -6,12 +6,23 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/v1")
 public class TestController {
 
-
     @GetMapping("/hello")
     public String hello(){
-
         return "Spring Lens Running";
-
     }
+
+
+    @GetMapping("/info")
+    public String info(){
+
+        return "info ............";
+    }
+
+    @GetMapping("/info2")
+    public String info2(){
+
+        return "info 222222222222............";
+    }
+
 
 }
