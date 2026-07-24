@@ -9,6 +9,7 @@ public class TestController {
     @GetMapping("/hello")
     public String hello(){
         return "Spring Lens Running";
+
     }
 
 
@@ -22,6 +23,12 @@ public class TestController {
     public String info2(){
 
         return "info 222222222222............";
+    }
+
+    @GetMapping("/info3")
+    public String info3(){
+
+        return "info 3333333333333333............";
     }
 
 
