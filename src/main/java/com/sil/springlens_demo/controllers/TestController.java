@@ -35,6 +35,11 @@ public class TestController {
 
         return "info 3333333333333333444444656666666............";
     }
+    @GetMapping("/info4")
+    public String info4(){
+
+        return "info 3333333333333333............w444444444444444444";
+    }
 
 
 }
